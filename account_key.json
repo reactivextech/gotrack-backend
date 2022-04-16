@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gotrack-app-impulsetech",
+  "private_key_id": "65610fa4a2f4f94032475c81efd47f6ed3799fe7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDVgAxRllfN4w9m\nG1A+rz4WKa/wgvEQZ76EebEhJpksWQESB+K/0fJEkLHPEfVsLsF3sUP57OsPPoMz\nwwxahJVMT+O1eAHB8doeURH66Km6iDHDSPkYxT1vlB7Ks7xXPb9luauUTbcaq6mC\nsDlkPUZn5nYVM9bztffsxXvwEw7/oVrW6eA/NdPvh0dnjwF9j6FSQLCwY0Y+dvqL\nT0tUmonutXqzDJdQtWAK4NhEbdnIhHrjeV1gjhVSM5KayJoH3Hji9YBCScxKMlAF\neeXApma1jltmOG1Cl14Up6iV4Cs8Ds/90EvpPtu72z5tIbDQjH1v63K4wIH4QoNV\nGkj21Tw1AgMBAAECgf8uv1UxmF9683l8pvci7f8I9CecHVuo9ZX+8hhWebjtZ+Z3\nJ5hbFDtO46DvNQWNhaR2oF4XrUr/LL48sFJOGHOaGJnX8gRj1rKagCRxv4iC1z+N\nsxotrPz25l5DR16d5ExkYYHM5q6/RA6yipjhVaDjXf5NhEHlD7x53qYIKithRSZe\n/VEXgZ+eiIjTo+lNTm49ygtddMiTlwbZsLKVTtXXO+YA1XCDHePDSNRZjsCiqivm\nY7dFTCH0L/zaqzSCP52+MbLnkg9cfhOVkeEXDGSNrsTYc9Lkjzv4F56O0PFZYbCl\nZFpZRwzRByyCe8y9goO47L7TRuCvVcN8l0xVFzECgYEA9FW/uprUmkPJJh8VmqC1\n45J3V7P8DX2by29kS+BqVAjtlhjmJGycaiJrY4TbJRdMp/f1kBa5UIZnZMtDOEb9\nDGy7WQ9YJfAAsldH1agO6CrjGWrn0s0AMSGlXPRFKDqeOWo6pgK75IgnifJDLCHB\nU5JwlZftTQhTjkDfjRqbStECgYEA37FwIG/z4jsS0VE60SYIxiDu6i4kRdVBbBOS\nds7IEbsqtua+1Zu/l9RGCF6sB+8DWIRTHwidD/cCcoV6ynbi7YLzZmRkCCUNz8LQ\nKdDj9i7av3dqzfwEDP+jcKn5DXVWbV792/wOltUZjyA5u4zRQPinqRtyOQmS0aXF\nh7/vrCUCgYEA0f+NHQ4L4laWYKxgvhiYm/J7niZ0YQfvSicAFfLYkEdoJBRcYTv0\nJ4hTsiIy06s12DvWk7PkLGCIJupIaOsifHZLg10bzud7QcygUfLydPq/W04110kY\nfCHF5aGQeuX+rawuohZBdUbMbNSKhTix12lKWFhOvWGFpwL84GLYy7ECgYBQg8ht\nFH6/Di4+wzMddsgvsEjuZ39M12593SmZs+IVZ73/KVzE/BNhLdmrR5A6JtCYesCE\nahBGX800tVC2MUaK4NiFIVtUBypKfr94XaS/xqubwPrje3Nlzlngwn1PV82s/kT3\nemkx5zAU8S92jz/+V8HZP3TEjOqYpUdNDkvRNQKBgQCOoe5sAJV62ZmFbXzKukyb\nWnjbXfBv53MKdav1v+ql1fi+0nfnilHAeCDMYvYsp8dx+D4HZTgMuqYPApZvQDio\nhiTW5OiPRc6OSIJYu1kobUbNWNqQPUEb/OlMDWcBKQFpN4VD02kADeZ0TIeZk/Fx\nfUbi/v1A4GAxnoR59ckzWw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3tsgq@gotrack-app-impulsetech.iam.gserviceaccount.com",
+  "client_id": "111107841132626999446",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3tsgq%40gotrack-app-impulsetech.iam.gserviceaccount.com"
+}
