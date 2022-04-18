@@ -32,7 +32,7 @@ function registrar(req, res, marca, modelo, so, vs, idplataforma, imei, idaplica
     if (!smn)
         smn = null;
     if (!simCountryCode)
-        simCountryCode = 'EC';
+        simCountryCode = 'UY';
     if (!codigoPais)
         return res.status(400).send({ error: 'codigoPais' });
     if (!apellidos)
