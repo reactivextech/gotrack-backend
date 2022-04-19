@@ -5,7 +5,7 @@ var f_registrar = require('./f_registro');
 var feedback = require('./feedback.js');
 var app = require('../app.js');
 
-const URL_INSIGNIA = 'https://firebasestorage.googleapis.com/v0/b/curiosity-0001.appspot.com/o/ins%2F';
+const URL_INSIGNIA = 'https://firebasestorage.googleapis.com/v0/b/gotrack-0001.appspot.com/o/ins%2F';
 
 router.post('/autenticar-clave', function (req, res) {
     var referencia = req.headers.referencia;
