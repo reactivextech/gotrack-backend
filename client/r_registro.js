@@ -83,7 +83,7 @@ function registrar(req, res, marca, modelo, so, vs, idplataforma, imei, idaplica
 function obtenerClave() {
     var numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     var clave = '';
-    for (var i = 0; i < 5; i++)
+    for (var i = 0; i < 7; i++)
         clave += numbers1[Math.floor(Math.random() * numbers1.length)];
     return (clave);
 }

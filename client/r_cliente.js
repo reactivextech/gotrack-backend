@@ -5,7 +5,7 @@ var f_registrar = require('./f_registro');
 var feedback = require('./feedback.js');
 var app = require('../app.js');
 
-const URL_INSIGNIA = 'https://firebasestorage.googleapis.com/v0/b/curiosity-0001.appspot.com/o/ins%2F';
+const URL_INSIGNIA = 'https://firebasestorage.googleapis.com/v0/b/gotrack-0001.appspot.com/o/ins%2F';
 
 router.post('/autenticar-clave', function (req, res) {
     var referencia = req.headers.referencia;
@@ -79,9 +79,9 @@ function autenticarApple(req, res, marca, modelo, so, vs, idaplicativo, idplataf
     if (!correo || correo == 'null')
         correo = null;
     if (!codigoPais)
-        codigoPais = '+593';
+        codigoPais = '+598';
     if (!simCountryCode)
-        simCountryCode = 'EC';
+        simCountryCode = 'UY';
 
     data.consultarRes(STORE_AUTENTICAR_APPLE, [idaplicativo, correo, idApple], function (clientes) {
         let clave = obtenerClave();
@@ -146,9 +146,9 @@ function autenticarGoogle(req, res, marca, modelo, so, vs, idaplicativo, idplata
     if (!smn)
         smn = null;
     if (!codigoPais)
-        codigoPais = '+593';
+        codigoPais = '+598';
     if (!simCountryCode)
-        simCountryCode = 'EC';
+        simCountryCode = 'UY';
 
     data.consultarRes(STORE_AUTENTICAR_GOOGLE, [idaplicativo, correo, idGoogle], function (clientes) {
         let clave = obtenerClave();
@@ -209,15 +209,15 @@ function autenticarFacebook(req, res, marca, modelo, so, vs, idaplicativo, idpla
     if (!smn)
         smn = null;
     if (!codigoPais)
-        codigoPais = '+593';
+        codigoPais = '+598';
     if (!simCountryCode)
-        simCountryCode = 'EC';
+        simCountryCode = 'UY';
 
     data.consultarRes(STORE_AUTENTICAR_FACEBOOK, [idaplicativo, correo, idFacebook], function (clientes) {
         let clave = obtenerClave();
         if (clientes.length <= 0) {
             if (!correo || correo === 'null' || correo == null) {
-                correo = `${Date.now()}@gotrack.uy`;
+                correo = `${Date.now()}@gotrackuy.com`;
                 console.log(correo);
             }
             return f_registrar.regitrar(idaplicativo, celular, correo, clave, nombres, apellidos, cedula, celularValidado, correoValidado, idplataforma, codigoPais, simCountryCode, smn, imei, token, marca, modelo, so, vs, img, req, res);
