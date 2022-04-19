@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 sql/
 node_modules/
 package-lock.json
@@ -7,3 +8,8 @@ sql/
 node_modules/
 package-lock.json
 >>>>>>> 81905476e82e72feec78111d6f401831e493ca46
+=======
+sql/
+publica/
+package-lock.json
+>>>>>>> 477b7acfed3eef0a52707a9da8782440ad0dc92c
